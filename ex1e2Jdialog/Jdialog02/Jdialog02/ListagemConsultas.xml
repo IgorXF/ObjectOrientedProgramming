@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Consultas>
+    <Consulta>
+        <dataHora>1</dataHora>
+        <id>1</id>
+        <medico>
+            <crm></crm>
+            <especialidade></especialidade>
+            <horariosDisponiveis></horariosDisponiveis>
+            <nome></nome>
+        </medico>
+        <paciente>
+            <cpf></cpf>
+            <dataNascimento></dataNascimento>
+            <historicoMedico></historicoMedico>
+            <nome></nome>
+        </paciente>
+    </Consulta>
+    <Consulta>
+        <dataHora>1</dataHora>
+        <id>1</id>
+        <medico>
+            <crm></crm>
+            <especialidade></especialidade>
+            <horariosDisponiveis></horariosDisponiveis>
+            <nome></nome>
+        </medico>
+        <paciente>
+            <cpf></cpf>
+            <dataNascimento></dataNascimento>
+            <historicoMedico></historicoMedico>
+            <nome></nome>
+        </paciente>
+    </Consulta>
+</Consultas>
