@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Pacientes>
+    <Paciente>
+        <cpf>1</cpf>
+        <dataNascimento>1</dataNascimento>
+        <historicoMedico>1</historicoMedico>
+        <nome>1</nome>
+    </Paciente>
+    <Paciente>
+        <cpf>2</cpf>
+        <dataNascimento>2</dataNascimento>
+        <historicoMedico>2</historicoMedico>
+        <nome>2</nome>
+    </Paciente>
+</Pacientes>

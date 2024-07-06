@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Medicos>
+    <Medico>
+        <crm>1</crm>
+        <especialidade>1</especialidade>
+        <horariosDisponiveis>1</horariosDisponiveis>
+        <nome>1</nome>
+    </Medico>
+</Medicos>
