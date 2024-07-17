@@ -1,1 +1,30 @@
+void alteracao(Funcionario f){
+		--------
+		--------
+}
 
+void metodoQualquer(Diretor d){
+		--------
+		--------
+}
+
+
+1  int main(){
+2		  Funcionario func = new Funcionario(); // certo
+3		  Engenheiro eng = new Engenheiro(); // certo
+4		  Diretor dir = new Diretor(); //certo
+5
+6		  Funcionario ttt = new Diretor(); //certo
+7		
+8		  alteracao(func); // certo
+9	  	alteracao(eng);  //certo
+10		alteracao(dir); //certo
+11
+12		metodoQualquer(func); //certo
+13		metodoQualquer(eng);  //errado
+14		metodoQualquer(dir);  //certo
+15
+16		ttt = new Gerente(); //certo
+17		dir = new Gerente(); //errado
+18    eng = new Gerente(); //errado
+19 }
