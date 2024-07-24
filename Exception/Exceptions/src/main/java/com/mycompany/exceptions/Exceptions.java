@@ -15,7 +15,7 @@ public class Exceptions {
 
     public static void main(String[] args) {
         try {
-            Funcionario f1 = new Funcionario("Marrie", "Feminino",1, 3000.00);
+            Funcionario f1 = new Funcionario("Marrie", "Feminino", 1, 3000.00);
             System.out.println("Funcionário registro: " + f1.getId() + " criado com sucesso");
 
             Funcionario f2 = new Funcionario("Daemon", "Masculino", 2, 0);
