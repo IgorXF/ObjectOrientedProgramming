@@ -1,0 +1,6 @@
+interfaces\Produto.class
+classes\Roupa.class
+classes\Alimento.class
+com\mycompany\exercicio10i\Exercicio10i.class
+classes\Eletronico.class
+abstratas\Produtop.class
