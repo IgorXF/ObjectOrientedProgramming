@@ -17,10 +17,12 @@ public class RegistroDeLog {
 
     public static void main(String[] args) {
         ILogStorage logArquivo = new ArquivoLogStorage();
-        ILogStorage logConsole = new ConsoleLogStorage();
+        ServicoLog serv1 = new ServicoLog(logArquivo);
+        serv1.registrarLog("Hear me Roar.");
         
-        logArquivo.armazenar("Hear me roar.");
-        logConsole.armazenar("Dracarys");
+        ILogStorage logConsole = new ConsoleLogStorage();
+        ServicoLog serv2 = new ServicoLog(logConsole);
+        serv2.registrarLog("Fire and Blood");
         //armazenaLogs();
     }
     
