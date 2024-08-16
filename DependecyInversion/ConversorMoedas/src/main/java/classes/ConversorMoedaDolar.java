@@ -17,7 +17,7 @@ public class  ConversorMoedaDolar implements IConversorMoeda{
         System.out.println("------------------------------------------------------------------------------");
         System.out.println("                                                                                              ");
         System.out.println("Convertendo para Real... ");
-        System.out.println("US$" +dolar+ " em Reais é: R$" +  dolar * 5.47);
+        System.out.println("US$" +dolar+ " em Reais é: R$" +  dolar * 5.49);
         System.out.println("                                                                                              ");
         System.out.println("------------------------------------------------------------------------------");
     }
@@ -27,7 +27,7 @@ public class  ConversorMoedaDolar implements IConversorMoeda{
         System.out.println("------------------------------------------------------------------------------");
         System.out.println("                                                                                              ");
         System.out.println("Convertendo para Dolar...");
-        System.out.println("R$"+real+ "em Dolares é: US$" + real / 5.47);
+        System.out.println("R$"+real+ "em Dolares é: US$" + real / 5.49);
         System.out.println("                                                                                              ");
         System.out.println("------------------------------------------------------------------------------");
     }
