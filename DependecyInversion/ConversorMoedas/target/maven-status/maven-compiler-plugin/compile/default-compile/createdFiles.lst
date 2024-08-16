@@ -1,0 +1,5 @@
+classes\ConversorMoedaDolar.class
+classes\ConversorMoedaReal.class
+classes\ServicoFinanceiro.class
+com\mycompany\conversormoedas\ConversorMoedas.class
+interfaces\IConversorMoeda.class
