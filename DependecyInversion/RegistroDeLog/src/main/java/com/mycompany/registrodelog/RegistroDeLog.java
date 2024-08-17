@@ -6,8 +6,8 @@ package com.mycompany.registrodelog;
 
 import classesConcretas.ArquivoLogStorage;
 import classesConcretas.ConsoleLogStorage;
+import classesConcretas.ServicoLog;
 import interfaces.ILogStorage;
-import java.util.Scanner;
 
 /**
  *
@@ -16,35 +16,12 @@ import java.util.Scanner;
 public class RegistroDeLog {
 
     public static void main(String[] args) {
-        ILogStorage logArquivo = new ArquivoLogStorage();
+        ILogStorage logArquivo = new ArquivoLogStorage(); 
         ServicoLog serv1 = new ServicoLog(logArquivo);
-        serv1.registrarLog("Hear me Roar.");
+        serv1.registrarLog("And the rose blooms once more");
         
         ILogStorage logConsole = new ConsoleLogStorage();
         ServicoLog serv2 = new ServicoLog(logConsole);
-        serv2.registrarLog("Fire and Blood");
-        //armazenaLogs();
+        serv2.registrarLog("Winter yields to spring");
     }
-    
-    /**static void armazenaLogs(){
-        ILogStorage log;
-        String mensagem = " ";
-        int a;
-        Scanner ler = new Scanner(System.in);
-        System.out.println("Você deseja armazenar no console (aperte 1) ou no arquivo (aperte 2)?");
-        a = ler.nextInt();
-        ler.nextLine();
-         if(a == 2){
-            log = new ArquivoLogStorage();
-            System.out.println("Digite sua mensagem: ");
-            mensagem = ler.nextLine();
-            log.armazenar(mensagem);
-         } else if(a == 1){
-            log = new ConsoleLogStorage();
-            System.out.println("Digite sua mensagem: ");
-            mensagem = ler.nextLine();
-            log.armazenar(mensagem);
-         }
-    }
-    * */
 }
