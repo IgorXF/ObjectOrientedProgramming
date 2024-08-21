@@ -1,1 +1,1 @@
-## Não ta salvando no arquivo, mas já tem todas as telas, polimorfismo, dependency inversion e herança só falta configurar o salvar no arquivo.
+## Não ta salvando no arquivo, mas já tem todas as telas, polimorfismo, dependency inversion e herança só falta configurar o salvar no arquivo(os 3 serializadores e as funções nos gerentes já estão ai, só falta arrumar umas coisinha e implementar).
