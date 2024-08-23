@@ -1,5 +1,0 @@
-Nome; ProfM; Semestre; Horario, Alunos
-1;1;1;1;[Aluno{cpf=1, nome=1, idade=1, matricula=1, anoIngresso=3}, Aluno{cpf=2, nome=2, idade=2, matricula=2, anoIngresso=2}];
-2;2;2;2;[Aluno{cpf=3, nome=3, idade=3, matricula=3, anoIngresso=3}, Aluno{cpf=5, nome=5, idade=5, matricula=5, anoIngresso=5}];
-3;3;3;3;[Aluno{cpf=1, nome=1, idade=1, matricula=1, anoIngresso=3}, Aluno{cpf=3, nome=3, idade=3, matricula=3, anoIngresso=3}];
-4;4;4;4;[];
