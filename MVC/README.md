@@ -8,10 +8,7 @@ Este é um projeto de demonstração do padrão de arquitetura **MVC (Model-View
 - [Descrição](#descrição)
 - [Funcionalidades](#funcionalidades)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Executar](#como-executar)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
+
 
 ## Descrição
 
