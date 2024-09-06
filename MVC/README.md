@@ -1,6 +1,8 @@
 
 # ProjEscolaMVC
 
+Igor Xisto e Mylena Antonelli
+
 Este é um projeto de demonstração do padrão de arquitetura **MVC (Model-View-Controller)** aplicado em um sistema de gerenciamento escolar, desenvolvido em **Java**.
 
 ## Índice
